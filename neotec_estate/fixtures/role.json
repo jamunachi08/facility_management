@@ -1,0 +1,22 @@
+[
+ {
+  "creation": "2026-01-01 00:00:00.000000",
+  "desk_access": 1,
+  "disabled": 0,
+  "doctype": "Role",
+  "docstatus": 0,
+  "is_custom": 1,
+  "name": "Facilities Manager",
+  "role_name": "Facilities Manager"
+ },
+ {
+  "creation": "2026-01-01 00:00:00.000000",
+  "desk_access": 0,
+  "disabled": 0,
+  "doctype": "Role",
+  "docstatus": 0,
+  "is_custom": 1,
+  "name": "Tenant",
+  "role_name": "Tenant"
+ }
+]
