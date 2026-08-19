@@ -1,0 +1,381 @@
+{
+ "charts": [],
+ "content": "[{\"id\": \"nte001\", \"type\": \"header\", \"data\": {\"text\": \"<span style=\\\"font-size: 18px; letter-spacing: 0.18px;\\\"><b>Neotec Estate</b></span>\", \"level\": 3, \"col\": 12}}, {\"id\": \"nte002\", \"type\": \"paragraph\", \"data\": {\"text\": \"Facility management and real estate management in one workspace. Follow the pathway below from onboarding a property through to lease renewal.\", \"col\": 12}}, {\"id\": \"nte003\", \"type\": \"header\", \"data\": {\"text\": \"<span style=\\\"font-size: 14px;\\\"><b>Your shortcuts</b></span>\", \"level\": 4, \"col\": 12}}, {\"id\": \"nte004\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"FM Dashboard\", \"col\": 4}}, {\"id\": \"nte005\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Neotec Estate Settings\", \"col\": 4}}, {\"id\": \"nte006\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"nte007\", \"type\": \"header\", \"data\": {\"text\": \"<span style=\\\"font-size: 14px;\\\"><b>Your pathway - property to renewal</b></span>\", \"level\": 4, \"col\": 12}}, {\"id\": \"nte008\", \"type\": \"card\", \"data\": {\"card_name\": \"1. Property setup\", \"col\": 4}}, {\"id\": \"nte009\", \"type\": \"card\", \"data\": {\"card_name\": \"2. Tenant onboarding\", \"col\": 4}}, {\"id\": \"nte010\", \"type\": \"card\", \"data\": {\"card_name\": \"3. Rent automation\", \"col\": 4}}, {\"id\": \"nte011\", \"type\": \"card\", \"data\": {\"card_name\": \"4. Maintenance and SLA\", \"col\": 4}}, {\"id\": \"nte012\", \"type\": \"card\", \"data\": {\"card_name\": \"5. Renewal and notices\", \"col\": 4}}, {\"id\": \"nte013\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"nte014\", \"type\": \"header\", \"data\": {\"text\": \"<span style=\\\"font-size: 14px;\\\"><b>Ongoing operations</b></span>\", \"level\": 4, \"col\": 12}}, {\"id\": \"nte015\", \"type\": \"card\", \"data\": {\"card_name\": \"Utilities and rent increments\", \"col\": 4}}, {\"id\": \"nte016\", \"type\": \"card\", \"data\": {\"card_name\": \"Security and workforce\", \"col\": 4}}, {\"id\": \"nte017\", \"type\": \"card\", \"data\": {\"card_name\": \"Key and tool custody\", \"col\": 4}}, {\"id\": \"nte018\", \"type\": \"card\", \"data\": {\"card_name\": \"Inspections\", \"col\": 4}}]",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "home",
+ "idx": 1,
+ "is_hidden": 0,
+ "label": "Neotec Estate",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "1. Property setup",
+   "link_count": 4,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break",
+   "description": "Landlord and property records"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Property",
+   "link_count": 0,
+   "link_to": "Property",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Real Estate Property",
+   "link_count": 0,
+   "link_to": "Real Estate Property",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Landlord",
+   "link_count": 0,
+   "link_to": "Landlord",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Property Checkup",
+   "link_count": 0,
+   "link_to": "Property Checkup",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "2. Tenant onboarding",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break",
+   "description": "Lease signing and KYC"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tenant Master",
+   "link_count": 0,
+   "link_to": "Tenant Master",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Rental Contract",
+   "link_count": 0,
+   "link_to": "Rental Contract",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Lease Template",
+   "link_count": 0,
+   "link_to": "Lease Template",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "3. Rent automation",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break",
+   "description": "Recurring invoices"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sales Invoice",
+   "link_count": 0,
+   "link_to": "Sales Invoice",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "EWA Billing",
+   "link_count": 0,
+   "link_to": "EWA Billing",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "4. Maintenance and SLA",
+   "link_count": 4,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break",
+   "description": "Tickets, bookings, breach alerts"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Property Maintenance",
+   "link_count": 0,
+   "link_to": "Property Maintenance",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Maintenance SLA",
+   "link_count": 0,
+   "link_to": "Maintenance SLA",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Facility Asset",
+   "link_count": 0,
+   "link_to": "Facility Asset",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Facility Booking",
+   "link_count": 0,
+   "link_to": "Facility Booking",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "5. Renewal and notices",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break",
+   "description": "Auto-generated tenant notices"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tenant Notice",
+   "link_count": 0,
+   "link_to": "Tenant Notice",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tenant Violation",
+   "link_count": 0,
+   "link_to": "Tenant Violation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Utilities and rent increments",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break",
+   "description": "Meter billing and increment rules"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Meter",
+   "link_count": 0,
+   "link_to": "Meter",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Meter Reading",
+   "link_count": 0,
+   "link_to": "Meter Reading",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Rental Increment Rule",
+   "link_count": 0,
+   "link_to": "Rental Increment Rule",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Security and workforce",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break",
+   "description": "Guard and outsourced staff attendance"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Facility Shift",
+   "link_count": 0,
+   "link_to": "Facility Shift",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Facility Attendance",
+   "link_count": 0,
+   "link_to": "Facility Attendance",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Key and tool custody",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break",
+   "description": "Issue and return tracking"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Facility Key Set",
+   "link_count": 0,
+   "link_to": "Facility Key Set",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Facility Tool Set",
+   "link_count": 0,
+   "link_to": "Facility Tool Set",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Facility Custody Log",
+   "link_count": 0,
+   "link_to": "Facility Custody Log",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Inspections",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break",
+   "description": "Daily checklist rounds"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Checklist Area",
+   "link_count": 0,
+   "link_to": "Checklist Area",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Property Daily Checklist",
+   "link_count": 0,
+   "link_to": "Property Daily Checklist",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "module": "Neotec Estate",
+ "name": "Neotec Estate",
+ "number_cards": [],
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "restrict_to_domain": "",
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Blue",
+   "doc_view": "",
+   "label": "FM Dashboard",
+   "link_to": "FM Dashboard",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "",
+   "label": "Neotec Estate Settings",
+   "link_to": "Neotec Estate Settings",
+   "type": "DocType"
+  }
+ ],
+ "title": "Neotec Estate"
+}
