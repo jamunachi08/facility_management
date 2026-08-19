@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "neotec_estate"
+authors = [
+    { name = "Neotec", email = "info@neotec.app"}
+]
+description = "Facility & Real Estate Management for ERPNext v15 — property, tenancy, leasing, maintenance CMMS and bookable facility assets."
+requires-python = ">=3.10"
+readme = "README.md"
+dynamic = ["version"]
+dependencies = [
+    "toolz~=0.12"
+]
+
+[tool.bench.dev-dependencies]
+# development dependencies go here
+
+[project.urls]
+Homepage = "https://github.com/neotec/neotec_estate"
+
+[tool.flit.module]
+name = "neotec_estate"
+
+# Required so `bench get-app` / bench update / Frappe Cloud can validate that
+# this app is compatible with the target bench's Frappe version.
+# See: https://docs.frappe.io/cloud/benches/custom-app#note
+[tool.bench.frappe-dependencies]
+frappe = ">=15.0.0,<16.0.0"
+erpnext = ">=15.0.0,<16.0.0"
